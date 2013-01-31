@@ -3,7 +3,6 @@ abstract: 'A convenient class for text classification'
 author:
   - 'Zbigniew Lukasiak <zlukasiak@opera.com>, Tadeusz Sośnierz <tsosnierz@opera.com>'
 build_requires:
-  File::Spec: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -23,6 +22,7 @@ requires:
   AI::NaiveBayes::Learner: 0
   Carp: 0
   File::Find::Rule: 0.32
+  File::Spec: 0
   List::Util: 0
   Module::Load: 0
   Moose: 1.15
@@ -33,4 +33,4 @@ requires:
   warnings: 0
 resources:
   repository: http://github.com/operasoftware/AI-Classifier
-version: 0.01
+version: 0.02

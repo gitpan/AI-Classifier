@@ -1,6 +1,6 @@
 package AI::Classifier::Text::Analyzer;
 {
-  $AI::Classifier::Text::Analyzer::VERSION = '0.01';
+  $AI::Classifier::Text::Analyzer::VERSION = '0.02';
 }
 
 use strict;
@@ -78,7 +78,7 @@ AI::Classifier::Text::Analyzer - computing feature vectors from documents
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

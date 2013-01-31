@@ -12,7 +12,6 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "A convenient class for text classification",
   "AUTHOR" => "Zbigniew Lukasiak <zlukasiak\@opera.com>, Tadeusz So\305\233nierz <tsosnierz\@opera.com>",
   "BUILD_REQUIRES" => {
-    "File::Spec" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -27,6 +26,7 @@ my %WriteMakefileArgs = (
     "AI::NaiveBayes::Learner" => 0,
     "Carp" => 0,
     "File::Find::Rule" => "0.32",
+    "File::Spec" => 0,
     "List::Util" => 0,
     "Module::Load" => 0,
     "Moose" => "1.15",
@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
