@@ -1,6 +1,6 @@
 package AI::Classifier::Text;
 {
-  $AI::Classifier::Text::VERSION = '0.02';
+  $AI::Classifier::Text::VERSION = '0.03';
 }
 
 use strict;
@@ -48,7 +48,7 @@ AI::Classifier::Text - A convenient class for text classification
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

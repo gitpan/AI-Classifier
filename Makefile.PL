@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "A convenient class for text classification",
   "AUTHOR" => "Zbigniew Lukasiak <zlukasiak\@opera.com>, Tadeusz So\305\233nierz <tsosnierz\@opera.com>",
   "BUILD_REQUIRES" => {
+    "Data::Dumper" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -35,7 +36,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

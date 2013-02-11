@@ -1,6 +1,6 @@
 package AI::Classifier::Text::FileLearner;
 {
-  $AI::Classifier::Text::FileLearner::VERSION = '0.02';
+  $AI::Classifier::Text::FileLearner::VERSION = '0.03';
 }
 use strict;
 use warnings;
@@ -167,7 +167,7 @@ AI::Classifier::Text::FileLearner - Training data reader for AI::NaiveBayes
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
